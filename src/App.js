@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import BoidsApp from "./codingtrain/BoidsApp";
+import ScrollToTop from "./ScrollToTop";
+import {Main} from "./main/Main";
+import {FlowField} from "./codingtrain/FlowField";
+import Blobby from "./codingtrain/Blobby";
+import RetirementCalculator from "./pages/RetirementPage";
+import BakerPercentagesCalculator from "./pages/BakerPercentagesCalculator";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <ScrollToTop />
+            <Routes>
+                <Route path="/" element={<Main />}/>
+                <Route path="/boids" element={<BoidsApp />}/>
+                <Route path="/flow-field" element={<FlowField />}/>
+                <Route path="/blobby" element={<Blobby />}/>
+                <Route path="/retirement-calculator" element={<RetirementCalculator />}/>
+                <Route path="/baker-calculator" element={<BakerPercentagesCalculator />}/>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
