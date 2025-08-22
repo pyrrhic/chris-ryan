@@ -1,8 +1,8 @@
 import {useEffect, useRef} from "react";
 import p5 from "p5";
 
-const width = 1000;
-const height = 800;
+let width = window.innerWidth;
+let height = window.innerHeight;
 const gridSquareSize = 1;
 const maxBoids = 1000;
 
@@ -26,7 +26,12 @@ function getSurroundingBoids(boidSelf, grid) {
     const nearByFlock = [];
 
     const { xGrid, yGrid } = boidSelf.gridPosition();
-    nearByFlock.push(...grid[xGrid][yGrid]);
+    try {
+        nearByFlock.push(...grid[xGrid][yGrid]);
+    } catch (e) {
+        debugger;
+        console.log(e);
+    }
 
     if (xGrid + 1 < grid.length) {
         nearByFlock.push(...grid[xGrid+1][yGrid]);
@@ -283,16 +288,15 @@ function BoidsApp() {
 
     useEffect(() => {
         const myP5 = new p5(sketch, containerRef.current)
-        return myP5.remove;
+        return () => {
+            myP5.remove();
+        };
     }, []);
 
     return (
-        <div className="h-full">
-            <div className="text-center mt-9">flocking</div>
-            <div className="flex justify-center">
-                <div ref={containerRef}>
+        <div className="h-screen w-screen overflow-hidden">
+            <div ref={containerRef} className="w-full h-full">
 
-                </div>
             </div>
         </div>
     );

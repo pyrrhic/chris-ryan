@@ -113,7 +113,6 @@ export function Main() {
                 <Link to="/blobby">blobby</Link>
                 <a href="https://solitaireplayfree.com/">Very Basic Solitaire</a>
                 <Link to="/retirement-calculator">retirement calculator</Link>
-                <Link to="/baker-calculator">baker percentages calculator</Link>
             </div>
             <div className="grid grid-cols-3 justify-items-center bg-black p-6 mt-9">
                 <img src="/frog cowboy.svg" alt="Frog Cowboy" className="w-64 bg-white"/>

@@ -4,43 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2987f816-50ce-44db-aedf-532e98e75b26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/chris-ryan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/frog cowboy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tree-favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScrollToTop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingtrain/Blobby.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingtrain/BoidsApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingtrain/FlowField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/useMousePosition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/BakerPercentagesCalculator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NeapolitanishDoughPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/RetirementPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/globals.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/p5-globals.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="2987f816-50ce-44db-aedf-532e98e75b26" name="Changes" comment="wip">
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/claude/CLAUDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/claude/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codingtrain/BoidsApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingtrain/BoidsApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BakerPercentagesCalculator.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pyrrhic&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pyrrhic/chris-ryan.git&quot;,
+    &quot;accountId&quot;: &quot;f4d26423-9a6f-4e8f-aa3a-d1a0bc82ceec&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,28 +58,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Node.js.build.ts.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/grak8/code-projects/chris-ryan/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\grak8\\code-projects\\chris-ryan\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.build.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHELLCHECK.PATH": "I do mind",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/chris/code-projects/chris-ryan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "ts.external.directory.path": "/Users/chris/code-projects/chris-ryan/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="C:\Users\grak8\code-projects\chris-ryan\public" />
       <recent name="C:\Users\grak8\code-projects\chris-ryan\src" />
     </key>
@@ -115,8 +106,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
       </set>
     </attachedChunks>
   </component>
@@ -150,7 +141,23 @@
       <workItem from="1742070765940" duration="12000" />
       <workItem from="1742073443608" duration="2107000" />
       <workItem from="1742141856286" duration="986000" />
+      <workItem from="1753370285554" duration="1206000" />
+      <workItem from="1753723088337" duration="9461000" />
+      <workItem from="1754921040453" duration="600000" />
+      <workItem from="1755178603202" duration="1199000" />
+      <workItem from="1755265087897" duration="8098000" />
+      <workItem from="1755873509145" duration="4000" />
+      <workItem from="1755874021551" duration="1464000" />
     </task>
+    <task id="LOCAL-00001" summary="wip">
+      <option name="closed" value="true" />
+      <created>1753151564232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753151564232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +167,20 @@
         <option value="$PROJECT_DIR$/build.js" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
 </project>

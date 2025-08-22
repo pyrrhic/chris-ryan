@@ -5,7 +5,6 @@ import {Main} from "./main/Main";
 import {FlowField} from "./codingtrain/FlowField";
 import Blobby from "./codingtrain/Blobby";
 import RetirementCalculator from "./pages/RetirementPage";
-import BakerPercentagesCalculator from "./pages/BakerPercentagesCalculator";
 
 function App() {
     return (
@@ -17,7 +16,6 @@ function App() {
                 <Route path="/flow-field" element={<FlowField />}/>
                 <Route path="/blobby" element={<Blobby />}/>
                 <Route path="/retirement-calculator" element={<RetirementCalculator />}/>
-                <Route path="/baker-calculator" element={<BakerPercentagesCalculator />}/>
             </Routes>
         </BrowserRouter>
     );
